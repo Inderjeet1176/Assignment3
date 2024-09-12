@@ -7,4 +7,11 @@ class TestMyTree(unittest.TestCase):
         tree = MyTree()
         self.assertIsNone(tree.root)
 
+    def test_create_empty_tree(self):
+        tree = MyTree()
+        self.assertIsNone(tree.root)
+
+
+
+
 
