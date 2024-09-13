@@ -17,6 +17,13 @@ class TestMyTree(unittest.TestCase):
         self.assertFalse(tree.is_empty())
 
 
+    def test_tree_contains_value(self):
+         tree = MyTree()
+         tree.add(5)
+         self.assertTrue(tree.contains(5))
+         self.assertFalse(tree.contains(10))
+
+
 
 
 
